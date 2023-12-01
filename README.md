@@ -1,13 +1,11 @@
-# C code style.
+# C code style
 This document describes C code style implemented by Julius Jauga in his projects.
 ## Table of contents
----
-- General rules
-- Variables
-- Functions
-- Comments
+- [General rules](###general-rules)
+- [Variables](###variables)
+- [Functions](###functions)
+- [Comments](###comments)
 ### General rules
----
 Here are the general syntax rules for this code style
 - Do not use tabs, use spaces instead
 - Use 4 spaces per indent level
@@ -36,7 +34,7 @@ int a = sum (4, 3);             // Wrong
 char a,b; // Correct
 int my_variable; // Correct
 
-char VARIABLE; //Wrong
+char MYVARIABLE; // Wrong, uppercase letters and two words
 
 for (int i = 0; i < 10; ++i) {           // Correct
 }
