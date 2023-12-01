@@ -1,10 +1,10 @@
 # C code style
 This document describes C code style implemented by Julius Jauga in his projects.
 ## Table of contents
-- [General rules](###general-rules)
-- [Variables](###variables)
-- [Functions](###functions)
-- [Comments](###comments)
+- [General rules](#general-rules)
+- [Variables](#variables)
+- [Functions](#functions)
+- [Comments](#comments)
 ### General rules
 Here are the general syntax rules for this code style
 - Do not use tabs, use spaces instead
