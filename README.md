@@ -161,11 +161,10 @@ int *p, *n;
 a++;            // Wrong
 ++a;            // Correct
 ```
-- Always use size_t for length or size variables
 - Always use const for function parameter or variable, if it should not be modified
 ```c
 // Correct
-void my_function(const size_t length) {
+void my_function(const int length) {
 
 }
 
@@ -244,7 +243,7 @@ if (a) {			// Starting condition
 			break;	// This breaks the loop.
 		}
 		else {
-			...		// This does something.
+			...	// This does something.
 		}
 	}
 }
