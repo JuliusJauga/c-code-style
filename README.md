@@ -47,11 +47,11 @@ for (int i = 0; i < 10; ++i)             // Wrong
 - Use single space before and after comparison and assignment operators
 ```c
 int sum;
-sum = 2 + 2;              // Correct
-for (int i = 0; i < 5; ++i) // Correct
-sum=2+2;                  // Wrong
-sum = 2+2;                // Wrong
-for (sum=0;sum<5;++sum)       // Wrong
+sum = 2 + 2;              	// Correct
+for (int i = 0; i < 5; ++i) 	// Correct
+sum=2+2;                  	// Wrong
+sum = 2+2;                	// Wrong
+for (sum=0;sum<5;++sum)       	// Wrong
 ```
 - Use single space after every comma
 ```c
